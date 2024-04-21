@@ -1,0 +1,416 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    background-color: rgb(35, 17, 69);
+    width: 100%;
+    font-family: Verdana ;
+  
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.bar{
+    height: 15vh;
+    width:100%;
+    border-bottom: 5px solid red;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.bar2{
+    height: 15vh;
+    width:100%;   
+    display: flex;
+    
+}
+
+.bar2 button{
+    background-color: greenyellow;
+    font-size: 30px;
+    padding: 15px;
+    border: 5px solid green;
+    border-radius: 5%;
+    margin-top: 50px;
+    margin-left: 70px;
+    scroll-behavior: smooth;
+}
+.bar2 button:hover{
+    background-color: orange;
+    color: aliceblue;
+    transform: translateY(-10px);
+    border: 5px solid red;
+}
+
+
+.bar2 h5{
+   margin-left: 400px;
+    font-size: 30px;
+    color: aliceblue;
+    margin-top: 70px;
+}
+
+.startbox{
+    height: 100%;
+    width: 300px;
+
+}
+.logo img{
+    
+    height: 100px;
+    border-radius: 50%;
+    padding: 2px;
+
+}
+.heading{
+    font-size: 5vh;
+    padding: 10px;
+    margin-top: 15px;
+    color: rgb(255, 255, 255);
+
+}
+.box1 img{
+    margin-bottom: 0px;
+}
+h4{
+    font-weight: none;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',
+     'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+
+.logo img:hover {
+    height: 150px;
+    padding: 5px;
+ }
+
+h4:hover {
+   color : rgb(255, 0, 0);
+  
+}
+h3{
+    color: rgb(60, 255, 0);
+}
+h3:hover {
+    color : rgb(255, 255, 255);
+ }
+.box{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+
+}
+.box1 img{
+   
+}
+
+.box1{
+    height: 250px;
+    width: 300px;
+    border: 5px solid red;
+    margin-top: 2vh;
+    padding: 2vw;
+    border-radius: 5%;
+}
+
+.box1:hover{
+    background-color: rgb(255, 104, 104);
+}
+
+.box2 img{
+    margin-bottom: 0px;
+    height: 200px;
+}
+.box2{
+    height: 250px;
+    width: 300px;
+    border: 5px solid red;
+    margin-top: 2vh;
+    padding: 2vw;
+    border-radius: 5%;
+}
+.box2:hover{
+    background-color: rgb(255, 104, 104);
+}
+
+.box3 img{
+    margin-bottom: 0px;
+    height: 200px;
+}
+
+.box3{
+    height: 250px;
+    width: 300px;
+    border: 5px solid red;
+    margin-top: 2vh;
+    padding: 2vw;
+    border-radius: 5%;
+}
+.box3:hover{
+    background-color: rgb(255, 104, 104);
+}
+
+.flatbox{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.flatbox1{
+    height: 90px;
+    width: 300px;
+    border: 5px solid red;
+    margin-top: 2vh;
+    color: #ffffff;
+    padding: 5px;
+}
+
+.flatbox2{
+    height: 90px;
+    width: 300px;
+    border: 5px solid red;
+    margin-top: 2vh;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+}
+
+.flatbox3{
+    height: 90px;
+    width: 300px;
+    border: 5px solid red;
+    margin-top: 2vh;
+    color:rgb(255, 255, 255);
+    padding: 5px;
+}
+
+.box4 img{
+    margin-bottom: 0px;
+    height: 200px;
+}
+
+.box4{
+    height: 250px;
+    width: 300px;
+    border: 5px solid red;
+    margin-top: 2vh;
+    padding: 2vw;
+    border-radius: 5%;
+}
+.box4:hover{
+    background-color: rgb(255, 104, 104);
+}
+
+.box5 img{
+    margin-bottom: 0px;
+    height: 200px;
+}
+.box5{
+    height: 250px;
+    width: 300px;
+    border: 5px solid red;
+    margin-top: 2vh;
+    padding: 2vw;
+    border-radius: 5%;
+}
+.box5:hover{
+    background-color: rgb(255, 104, 104);
+}
+
+.box6 img{
+    margin-bottom: 0px;
+    height: 200px;
+}
+
+.box6{
+    height: 250px;
+    width: 300px;
+    border: 5px solid red;
+    margin-top: 2vh;
+    padding: 2vw;
+    border-radius: 5%;
+}
+.box6:hover{
+    background-color: rgb(255, 104, 104);
+}
+.flatbox{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.flatbox4{
+    height: 90px;
+    width: 300px;
+    background-color: rgb(255, 194, 144);
+    margin-top: 2vh;
+    color: #7700ff;
+    padding: 5px;
+}
+
+.flatbox5{
+    height: 90px;
+    width: 300px;
+    background-color: rgb(255, 194, 144);
+    margin-top: 2vh;
+    color: rgb(119, 0, 255);
+    padding: 5px;
+}
+
+.flatbox6{
+    height: 90px;
+    width: 300px;
+    background-color: rgb(255, 194, 144);
+    margin-top: 2vh;
+    color:rgb(119, 0, 255);
+    padding: 5px;
+}
+
+#registration_box{
+    height: 600px;
+    width: 80%;
+    border-radius: 5%;
+    margin-left: 10%;
+    margin-top: 50px;
+    border: 5px solid red;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0002);
+
+}
+
+#registration_box img{
+    margin-left: 350px;
+    height: 200px;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0002);
+ 
+}
+
+.data{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 20px;
+    color: white;
+    
+}
+.data:hover{}
+.data1{
+    margin-top: 50px;
+    display: flex;
+    border:4px solid red;
+}
+.data2{
+    margin-top: 50px;
+    display: flex;
+    border:4px solid red;
+}
+.data3{
+    margin-top: 50px;
+    display: flex;
+    border:4px solid red;
+}
+
+.regbtn button{
+    background-color: rgb(131, 253, 255);
+    font-size: 30px;
+    padding: 15px;
+    border: 5px solid rgb(50, 159, 255);
+    border-radius: 15%;
+    margin-top: 50px;
+    margin-left: 70px;
+    scroll-behavior: smooth;
+}
+.regbtn button:hover{
+    background-color: rgb(138, 255, 99);
+    color: aliceblue;
+    transform: translateY(-10px);
+    border: 5px solid rgb(63, 255, 140);
+}
+
+
+
+
+footer{
+    position: relative;
+    width: 100%;
+background-color: rgb(33, 42, 78);
+padding: 20px 50px;
+min-height: 100px;
+display: flex;
+flex-direction: column;
+}
+
+.menu{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+    
+ }
+
+
+
+.si{
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 10px 0;
+   flex-wrap: wrap;
+   
+}
+
+footer .si li {
+    list-style: none;
+}
+
+footer .si li a{
+    font-size:2em;
+    color: white;
+    display: inline-block;
+    transition: 0.5s;
+    margin-left: 20px;
+}
+
+footer .si li a:hover{
+    transform: translateY(-10px);
+    color: rgb(0, 247, 255);
+}
+
+.sidebox{
+    height: 100%;
+    width: 500px;
+    
+}
+
+ .menu a{
+    list-style: none;
+    font-size:1em;
+    color: white;
+    display: inline-block;
+    transition: 0.5s;
+    margin-left: 20px;
+    text-decoration: none;
+    opacity: 0.75;
+    margin-top: 20px;
+ }
+
+  .menu a:hover{
+    opacity: 1;
+    color: rgb(0, 247, 255);
+    font-size: 20px;
+ }
+
+ .footer .wave{
+      position: absolute;
+      top: -100px;
+      left: 0;
+      width: 100%;
+      height: 100px;
+      background: red url(wave.png);
+}
